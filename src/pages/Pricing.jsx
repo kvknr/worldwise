@@ -1,8 +1,11 @@
-import PageNav from "../components/PageNav";
-// Uses the same styles as Product
+//Imports
+//Custom Imports
 import styles from "./Product.module.css";
+import PageNav from "../components/PageNav";
 
-export default function Product() {
+//Component Product
+function Pricing() {
+  //JSX Return Statement
   return (
     <main className={styles.product}>
       <PageNav />
@@ -24,3 +27,6 @@ export default function Product() {
     </main>
   );
 }
+
+//Exports
+export default Pricing;

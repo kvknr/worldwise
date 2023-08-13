@@ -1,7 +1,11 @@
-import PageNav from "../components/PageNav";
+//Imports
+//Custom Imports
 import styles from "./Product.module.css";
+import PageNav from "../components/PageNav";
 
-export default function Product() {
+//Component Product
+function Product() {
+  //JSX Return Statement
   return (
     <main className={styles.product}>
       <PageNav />
@@ -29,3 +33,6 @@ export default function Product() {
     </main>
   );
 }
+
+//Exports
+export default Product;
